@@ -4,79 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My personal site</title>
+    <title>My site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
-    <table cellspacing="20">
-    <td><img src="hack.png" alt="hack" width="150" height="150"></td>
-    <td><h1>hackman01</h1>
-        <p><em>Still Learning to dope my <b>brain</b></em></p>
-        <p>I am currently pursuing <b>B.Tech</b> from <b>Institute of Engineering and Rural Technology, Prayagraj.</b></p>
-        <p>I ❤ Pizzas</p></td>
-    </table>
-    <hr size="4" noshade>
-    <h3>Exploring Domains</h3>
-    <ul>
-            <li>Stocks Marketing</li>
-            <li>Associate Marketing</li>
-            <li>Digital Marketing</li>
-    </ul>
-    <hr size="4" noshade>
-    <h3>Academic Experience</h3>
-    <table cellpadding="10">
-        <thead>
-            <th>Dates</th>
-            <th>Organization</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2011-2018</td>
-                <td>St. Johns School</td>
-            </tr>
-            <tr>
-                <td>2018-2020</td>
-                <td>HS Academy</td>
-            </tr>
-            <tr>
-                <td>2021-Present</td>
-                <td>Institute Of Engineering And Rural Technology</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr size="4" noshade>
-    <h3>Skills</h3>
-    <table border="1">
-        <tr>
-            <td><table cellspacing="5">
-                <tr>
-                    <td>Python Developement</td>
-                    <td>&#x2B50&#x2B50&#x2B50&#x2B50</td>
-                </tr>
-                <tr>
-                    <td>C Programming</td>
-                    <td>&#x2B50&#x2B50&#x2B50&#x2B50</td>
-                </tr>
-            </table></td>
-            <td>
-                <table cellspacing="5">
-                    <tr>
-                    <td>Linux</td>
-                    <td>&#x2B50&#x2B50&#x2B50</td>
-                    </tr>
-                    <tr>
-                    <td>Metasploit</td>
-                    <td>&#x2B50&#x2B50&#x2B50</td>
-                    </tr>
-                </table>
-            </td>  
-        </tr>
-    </table>
-    <hr size="4" noshade>
-    <br>
-    <a href="hobbies.html">My Hobbies</a>
-    <br>
-    <a href="contacts.html">Contact Me</a>
-    <br>
-    <a href="form.html">Form</a>
+    
+    <div class="top-container">
+        <img class="cloud1" src="images/cloud.png" alt="">
+        <h1>hackman01</h1>
+        <h2>An aspiring hacker</h2>
+        <img class="cloud2" src="images/cloud.png" alt="">
+        <img src="images/mountain.png" alt="">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img class="pic" src="images/profile.png" alt="">
+          <h2>Hello.</h2>
+          <p>My name is Aman. I am persuing B.Tech from Institute of Engineering and Rural Technology,Prayagraj.</p>
+          <p>I am a Python Developer and currently learning Web developement and Penetration testing. </p>
+          <p>I have learned to succefully carry out exploit such as LFI, RCE, SQLI, Privilage escalation.</p>
+          <p>Apart from this I am comfortable with OSes such as Linux and Windows.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2 class="ms">My Skills.</h2>
+          <div class="skill-row1">
+            <img class="developement" src="images/computer.png" alt="">
+            <h3>Python Developement</h3>
+            <p>I have created a <a href="https://github.com/hackman01/imgresizer">Python project</a> which converts images into smaller images or pdfs.</p>
+            <p>It can also be used to convert images into pdfs.</p>
+          </div>
+          <div class="skill-row2">
+            <img class="hack" src="images/hack.png" alt="">
+            <h3>Penetration Testing</h3>
+            <p>I am learning Penetration Testing from tryhackme with current percentile of 96 on the platform.</p>
+            <p>I have Experience with tools such as Metasplot, Nmap, Burpsuite, Linenum, enum4linux and etc.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>I am open to work.</h3>
+          <p>In case you have a project related to my skills, ping me up i will be happy to work.</p>
+          <a class="btn" href="mailto:amanmourya@295@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/aman-maurya-b59b46229"><img src="images/linkedin.png" style="width:30px;height: 30px;" alt=""></a>
+        <a class="footer-link" href="https://twitter.com/AmanMaurya165"><img src="images/twitter.png" style="width: 30px;height: 30px;" alt=""></a>
+        <p>© hackman01.</p>
+      </div>
+      
 </body>
 </html>

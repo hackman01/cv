@@ -1,0 +1,131 @@
+a:link, a:visited{
+    color: #11999E;
+    text-decoration: none;
+}
+a:hover{
+    color: aquamarine;
+    text-decoration: none;
+}
+a:active{
+    color: none;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+
+}
+.btn:link, .btn:visited{
+    position: relative;
+    top: 10px;
+    font-weight: 50;
+    font-family: 'Merriweather', serif;
+    padding: 14px 25px;    
+    border-radius: 20px;
+    background-color: #aaaaaa;
+}
+.btn:hover, .btn:active{
+    background-color: #40514E;
+}
+h3{
+    font-weight: 200;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    color: #11999E;
+}
+h2{
+    font-weight: 300;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    color:  #66BFBF;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    color:  #66BFBF;
+}
+p{
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-container{
+    margin-top: 0;
+    padding-top: 100px;
+    background-color: #E4F9F5;
+}
+hr{
+    border-style: none; 
+    border-top-style: dotted;
+    border-color: #a9acab;
+    border-width: 10px;
+    width: 5%;
+    border: 
+    
+}
+.middle-container{
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color:  #E4F9F5;
+    line-height: 2;
+}
+
+.bottom-container{
+    padding-top: 30px ;
+    margin-bottom: 0;
+    background-color: #60726f;
+    line-height: 2;
+    padding-bottom: 10px;
+}
+.pic{
+    border-style: none;
+    border-width: 10px;
+    border-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+.developement{
+    
+
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    
+}
+.hack{
+    border-width: 10px;
+    border-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+.cloud1{
+    position: absolute;
+    top: 40px;
+    right: 250px;
+}
+.cloud2{
+    position: absolute;
+    left: 250px;
+   
+}
+.profile{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.skill-row1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.skill-row2{
+    padding-bottom: 100px;
+}
+.ms{
+    position: relative;
+    top: 70px;
+}
+.contact-me{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
