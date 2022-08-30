@@ -50,9 +50,25 @@ p{
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
 }
+.nav-bar{
+    position: absolute;
+    background-color: #5baeb1;
+    width: 100% ;
+    height: 50px;
+    padding-top: 10px;
+    top: 0px;
+    position: fixed;
+}
+.li{
+    text-align: right;
+    font-size: 20px;
+    color: #40514E;
+    font-family: 'Merriweather', serif;
+    line-height: 2.5;
+}
 .top-container{
-    margin-top: 0;
-    padding-top: 100px;
+    margin-top: 50px;
+    padding-top: 200px;
     background-color: #E4F9F5;
 }
 hr{
@@ -61,8 +77,6 @@ hr{
     border-color: #a9acab;
     border-width: 10px;
     width: 5%;
-    border: 
-    
 }
 .middle-container{
     margin: 0;
@@ -87,12 +101,9 @@ hr{
     width: 200px;
 }
 .developement{
-    
-
     height: 200px;
     width: 200px;
     border-radius: 100%;
-    
 }
 .hack{
     border-width: 10px;
@@ -102,13 +113,12 @@ hr{
 }
 .cloud1{
     position: absolute;
-    top: 40px;
+    top: 150px;
     right: 250px;
 }
 .cloud2{
     position: absolute;
     left: 250px;
-   
 }
 .profile{
     padding-top: 100px;
@@ -129,3 +139,33 @@ hr{
     padding-top: 50px;
     padding-bottom: 20px;
 }
+.ab:link, .ab:visited{
+    position: relative;
+    right: 220px;
+    bottom: 3px;
+    color: #40eaf7;
+}
+.ab:hover{
+    color:#40514E
+}
+.sk:link, .sk:visited{
+    position: relative;
+    right: 120px;
+    bottom: 3px;
+    color:#40eaf7
+}
+.sk:hover{
+    color:#40514E
+}
+.co:link, .co:visited{
+    position: relative;
+    right: 20px;
+    bottom: 3px;
+    color:#40eaf7
+}
+.co:hover{
+    color:#40514E
+}
+
+
+
