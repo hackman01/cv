@@ -1,3 +1,29 @@
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; transform: scaleX(-50px); }
+  }
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;} 
+ } 
+
+ html {
+    scroll-behavior: smooth;
+  }
+
 a:link, a:visited{
     color: #11999E;
     text-decoration: none;
@@ -35,12 +61,14 @@ h3{
     color: #11999E;
 }
 h2{
+    animation: fadeIn 3.5s ease-in;
     font-weight: 300;
     font-size: 25px;
     font-family: 'Merriweather', serif;
     color:  #66BFBF;
 }
 h1{
+    animation: fadeIn 2.5s ease-in;
     font-size: 60px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 0;
@@ -52,12 +80,13 @@ p{
 }
 .nav-bar{
     position: absolute;
-    background-color: #5baeb1;
+    background-color: #3edee4;
     width: 100% ;
     height: 50px;
     padding-top: 10px;
     top: 0px;
     position: fixed;
+    z-index: 99;
 }
 .li{
     text-align: right;
@@ -65,6 +94,7 @@ p{
     color: #40514E;
     font-family: 'Merriweather', serif;
     line-height: 2.5;
+    
 }
 .top-container{
     margin-top: 50px;
@@ -104,6 +134,7 @@ hr{
     height: 200px;
     width: 200px;
     border-radius: 100%;
+    object-fit: cover;
 }
 .hack{
     border-width: 10px;
@@ -111,39 +142,73 @@ hr{
     height: 200px;
     width: 200px;
 }
+.mount{
+    animation: fadeIn 0.5s ease-in;
+}
 .cloud1{
+    animation: fadeIn 0.5s ease-in;
     position: absolute;
     top: 150px;
     right: 250px;
 }
 .cloud2{
+    animation: fadeIn 0.5s ease-in;
     position: absolute;
     left: 250px;
 }
 .profile{
+    opacity: 0.1;
+    transition:  opacity 0.5s linear;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.profile:hover{
+    visibility: visible;
+    opacity: 1;
 }
 .skill-row1{
+    opacity: 0.1;
+    transition:  opacity 0.5s linear;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.skill-row1:hover{
+    visibility: visible;
+    opacity: 1;
+}
 .skill-row2{
+    
+    /* visibility: hidden; */
+    opacity: 0.1;
+    transition:  opacity 0.5s linear;
     padding-bottom: 100px;
 }
+.skill-row2:hover{
+   
+    padding-bottom: 100px;
+    visibility: visible;
+    opacity: 1;
+ 
+}
+
 .ms{
     position: relative;
     top: 70px;
 }
 .contact-me{
+    opacity: 0.1;
+    transition:  opacity 0.5s linear;
     padding-top: 50px;
     padding-bottom: 20px;
+}
+.contact-me:hover{
+  opacity: 1;
 }
 .ab:link, .ab:visited{
     position: relative;
     right: 220px;
     bottom: 3px;
-    color: #40eaf7;
+    color: #259ea7;
 }
 .ab:hover{
     color:#40514E
@@ -152,19 +217,19 @@ hr{
     position: relative;
     right: 120px;
     bottom: 3px;
-    color:#40eaf7
+    color:#259ea7;
 }
 .sk:hover{
     color:#40514E
 }
 .co:link, .co:visited{
     position: relative;
-    right: 20px;
+    right: 50px;
     bottom: 3px;
-    color:#40eaf7
+    color:#259ea7;
 }
 .co:hover{
-    color:#40514E
+    color:#40514E;
 }
 
 
