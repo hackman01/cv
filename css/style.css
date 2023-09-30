@@ -232,5 +232,8 @@ hr{
     color:#40514E;
 }
 
-
-
+.footer-img{
+    width:30px;
+    height: 30px;
+    border-radius: 5px;
+}
